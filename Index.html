@@ -2,144 +2,62 @@
 <html>
 <head>
 <meta charset="utf-8">
-
 <title>Aplic. Web de jQuery Mobile</title>
 <link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
-<style type="text/css">
-#apDiv1 {
-	position: absolute;
-	width: 200px;
-	height: 115px;
-	z-index: 1;
-	visibility: hidden;
-}
-</style>
 <script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
 <script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
-<script scr="phonegap.js"></script>
 </head> 
 <body> 
 
 <div data-role="page" id="page">
-<div data-role="header">
-<h1>Convivio 2015 BE/NE</h1>
-</div>
-<div data-role="content"> 
-
-<div id="apDiv1"><embed src="Jingle Bell Rock   Sub English.mp3" width="32" height="32"></embed></div>
-
-<table width="450" border="0" align="center">
-  <tr>
-<td align="center" valign="middle"><img src="Invitación.jpg" width="425" height="250"></td>
- </tr>
-</table>
-</div>
-
-<ul data-role="listview">
-			<li><a href="#page2">Conoce el lugar</a></li>
-            <li><a href="#page3">Rutas</a></li>
-			<li><a href="#page4">Programa tu Música</a></li>
-         	<li><a href="#page5">IMPORTANTE</a></li>
-           	<li><a href="#page6">Acerca de</a></li>
+	<div data-role="header">
+		<h1>Página uno</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2">Página dos</a></li>
+            <li><a href="#page3">Página tres</a></li>
+			<li><a href="#page4">Página cuatro</a></li>
 		</ul>		
 	</div>
 	<div data-role="footer">
-		<h4>Convivio 2015 BE/NE</h4>
+		<h4>Pie de página</h4>
 	</div>
 </div>
 
 <div data-role="page" id="page2">
-<div data-role="header">
-<h1>Conoce el lugar</h1>
-</div>
-<div data-role="content">	
-El parque arqueológico Federico Areano en Villa Canales alberga los restos de la "Parroquia de Concepción", una hermosa estructura religiosa construida en 1598 a solicitud de fray Francisco de la Guardia.
-
-<table width="480" border="0" align="center">
-  <tr>
-    <td align="center" valign="middle"><iframe width="450" height="300" src="https://www.youtube.com/embed/kH66Nz1UXVo?rel=0" frameborder="0" allowfullscreen></iframe>&nbsp;</td>
-  </tr>
-</table>
-
+	<div data-role="header">
+		<h1>Página dos</h1>
 	</div>
-
+	<div data-role="content">	
+		Contenido		
+	</div>
 	<div data-role="footer">
-		<h4>Convivio 2015 BE/NE</h4>
+		<h4>Pie de página</h4>
 	</div>
 </div>
 
 <div data-role="page" id="page3">
-<div data-role="header">
-<h1>Rutas</h1>
-</div>
-<div data-role="content">	
-<div>Desde: Obelisco, Guatemala
-</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1616.392164536358!2d-90.52410228321422!3d14.58530307510148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m5!1s0x8589a3dc9e7ff1eb%3A0x95bad20a11b3181d!2sObelisco%2C+Guatemala!3m2!1d14.593914499999999!2d-90.51780579999999!4m3!3m2!1d14.4935955!2d-90.538161!5e1!3m2!1ses!2sgt!4v1442646958987" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-<div>Desde: Centro Comercial Santa Clara, Guatemala
-</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d6467.58463455511!2d-90.57957245790735!3d14.516487519424453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e0!4m3!3m2!1d14.5324254!2d-90.5951839!4m3!3m2!1d14.4935955!2d-90.538161!5e1!3m2!1ses!2sgt!4v1442647396023" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-<div>Desde: IRTRA, Avenida Petapa, Guatemala
-</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d12935.328675676545!2d-90.53714751249433!3d14.513760279756763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e0!4m3!3m2!1d14.5743765!2d-90.54679999999999!4m3!3m2!1d14.4935955!2d-90.538161!5e1!3m2!1ses!2sgt!4v1442646573337" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-<div>Desde: Casa de Dios, Carretera a El Salvador
-</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d1616.9517361349483!2d-90.47959710620589!3d14.508879396541031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e0!4m3!3m2!1d14.5109506!2d-90.47744689999999!4m3!3m2!1d14.4935955!2d-90.538161!5e1!3m2!1ses!2sgt!4v1442648213214" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-<div>
-</div>	
+	<div data-role="header">
+		<h1>Página tres</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
 	</div>
 	<div data-role="footer">
-		<h4>Convivio 2015 BE/NE</h4>
+		<h4>Pie de página</h4>
 	</div>
 </div>
 
 <div data-role="page" id="page4">
 	<div data-role="header">
-		<h1>Programa tu Música</h1>
+		<h1>Página cuatro</h1>
 	</div>
 	<div data-role="content">	
-Completa las casillas con tu Nombre, Apellidos y en el cuadro grande coloca el título y artista de dos canciones que te gustaría que sonaran el día del convivio. 
-
-<p> Al presionar el botón de "Enviar Formulario" te visualizará un mensaje, en donde únicamente debes presionar el botón "Cerrar". </p>
- <iframe src="http://www.suformulario.com/formulario.php?id=MTM2OTQ%3D" style="width:450px;height:400px;background-color:transparent;border-width:0px;" frameBorder="0" ALLOWTRANSPARENCY="true">
-</iframe>
-
- 	
+		Contenido		
 	</div>
 	<div data-role="footer">
-		<h4>Convivio 2015 BE/NE</h4>
-	</div>
-</div>
-
-<div data-role="page" id="page5">
-<div data-role="header">
-<h1>IMPORTANTE</h1>
-</div>
-<div data-role="content">	
-<table width="450" border="0" align="center">
-  <tr>
-    <td align="center" valign="middle"><img src="Te esperamos.jpg" width="415" height="250">&nbsp;</td>
-  </tr>
-</table>
-</div>
-<div data-role="footer"
-		<h4>Convivio 2015 BE/NE</h4>
-	</div>
-</div>
-
-
-<div data-role="page" id="page6">
-<div data-role="header">
-<h1>Acerca de</h1>
-</div>
-<div data-role="content">	
-jrvelasquezp
-<p>Septiembre, 2015</p>
-
-
-</div>
-<div data-role="footer"
-		<h4>Convivio 2015 BE/NE</h4>
+		<h4>Pie de página</h4>
 	</div>
 </div>
 
